@@ -5,7 +5,7 @@ from rembg import remove
 from PIL import Image
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Ensure required directories exist
+# Ensure required directories exist 
 input_folder = 'input_images'
 output_folder = 'output_images'
 os.makedirs(input_folder, exist_ok=True)  # Create input_images if it doesn't exist
