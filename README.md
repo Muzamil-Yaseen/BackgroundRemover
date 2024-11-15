@@ -13,3 +13,22 @@ This repository offers a Python-based tool for batch removing backgrounds from i
 - **output_images/**: Folder where processed, background-free images are saved.
 - **BGremove.py**: Primary Python script for background removal operations.
 - **requirements.txt**: List of required dependencies. Run `pip install -r requirements.txt` for a manual installation of dependencies if needed.
+
+## Installation
+
+### Clone the Repository
+
+To clone this repository, run the following command:
+
+```bash
+git clone https://github.com/Muzamil-Yaseen/BackgroundRemover.git
+
+```
+To install the required dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+
