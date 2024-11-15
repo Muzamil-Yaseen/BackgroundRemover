@@ -1,12 +1,15 @@
 # BackgroundRemover
-This repository provides a Python-based tool for batch removing backgrounds from images using the rembg library and Pillow. The script automatically processes images in the input_images folder and saves the output in output_images, allowing for streamlined background removal in a variety of formats.
-# Features:
-Batch Processing: Processes images in batches to optimize performance, with multithreading for faster processing.
-Format Flexibility: Supports various input formats (JPEG, PNG, TIFF, BMP, and WebP) and outputs images in customizable formats.
-Automatic Dependency Management: Checks and installs any missing packages (rembg and Pillow), ensuring a smooth setup.
-Quality Control: Allows adjustment of output quality, especially useful for lossy formats like JPEG.
-# Folder and File Structure:
-# input_images/: Place images here that need background removal processing.
-# output_images/: Processed images with backgrounds removed will be saved here.
-# BGremove.py: Main Python script for background removal.
-# requirements.txt: Lists dependencies. You can run pip install -r requirements.txt for manual installation if needed.
+
+This repository offers a Python-based tool for batch removing backgrounds from images using the `rembg` library and `Pillow`. The script processes images stored in the `input_images` folder, saving the background-free versions in the `output_images` folder. It is designed to streamline the process of background removal across multiple image formats.
+
+## Features:
+- **Batch Processing**: Handles images in batches to improve performance with multithreaded execution for faster processing.
+- **Format Flexibility**: Supports various image formats (JPEG, PNG, TIFF, BMP, and WebP) and provides options for customized output formats.
+- **Automatic Dependency Management**: Checks for and installs missing packages (`rembg` and `Pillow`), ensuring hassle-free setup.
+- **Quality Control**: Offers adjustable quality settings for output images, particularly beneficial for lossy formats like JPEG.
+
+## Folder and File Structure:
+- **input_images/**: Folder for images that need background removal.
+- **output_images/**: Folder where processed, background-free images are saved.
+- **BGremove.py**: Primary Python script for background removal operations.
+- **requirements.txt**: List of required dependencies. Run `pip install -r requirements.txt` for a manual installation of dependencies if needed.
