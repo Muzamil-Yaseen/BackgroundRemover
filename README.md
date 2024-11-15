@@ -22,6 +22,11 @@ To clone this repository, open your terminal and run:
 git clone https://github.com/Muzamil-Yaseen/BackgroundRemover.git
 
 ```
+Then, navigate into the project directory:
+
+```bash
+cd BackgroundRemover
+```
 
 ### 📦 Install Dependencies
 Navigate to the project directory and install the required dependencies by running:
