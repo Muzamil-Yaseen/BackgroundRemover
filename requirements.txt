@@ -1,0 +1,6 @@
+# Optional PyTorch index if needed (can be removed if not using PyTorch)
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Core dependencies
+rembg==2.0.30       # Background removal library
+pillow==10.0.0      # Image processing
